@@ -38,3 +38,19 @@
     clip-path: polygon(100% 0%, 100% 70%, 0% 110%, 0% 0%);
   }
 }
+
+.clip-diagonalsignup {
+  clip-path: polygon(100% 100%, 100% 80%, 60% 100%, 0% 100%);
+}
+
+@media(max-width: 768px){
+  .clip-diagonalsignup {
+  clip-path: polygon(100% 100%, 100% 65%, 0% 80%, 0% 100%);
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .clip-diagonalsignup {
+    clip-path: polygon(100% 100%, 100% 50%, 0% 80%, 0% 100%);
+  }
+}

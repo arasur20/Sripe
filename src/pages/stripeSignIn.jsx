@@ -3,7 +3,12 @@ import CustomButton from "../component/CustomButton";
 import Row from "../component/divisor";
 import { LockClosedIcon } from "@heroicons/react/24/solid";
 import googleLogo from "../utils/googleLogo.webp"
+import { useNavigate } from "react-router-dom";
 const SignIn = () => {
+  const navi = useNavigate();
+  const navigate=()=>{
+  navi('/signup');
+  }
   return (
     <div className="relative w-full min-h-screen bg-white overflow-auto">
       <div
@@ -83,7 +88,7 @@ const SignIn = () => {
             <div className="mt-5 w-full bg-gray-50 flex justify-center p-6">
               <p className="text-[18px] text-gray-600 font-semibold">
                 New to Stripe?{" "}
-                <span className="text-[#7276fc] cursor-pointer hover:text-black">
+                <span className="text-[#7276fc] cursor-pointer hover:text-black" onClick={navigate}>
                   Create account
                 </span>
               </p>

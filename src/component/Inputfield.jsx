@@ -7,7 +7,7 @@ const InputField = ({ type, placeholder,title, value, onChange, error }) => {
             placeholder={placeholder}
             value={value}
             onChange={(e) => onChange(e.target.value)}
-            className="w-full p-4 border border-gray-300 rounded focus:outline-none focus:ring-4 focus:ring-blue-300"
+            className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-4 focus:ring-blue-300"
         />
         {error && (
         <div className="text-start text-red-500 text-sm mt-1">{error}</div>
