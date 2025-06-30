@@ -1,7 +1,7 @@
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
-```bash
 Tailwind CSS for utility-first styling, with PostCSS and Autoprefixer to process CSS.
 npm install tailwindcss postcss autoprefixer
 --
