@@ -51,6 +51,30 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .clip-diagonalsignup {
-    clip-path: polygon(100% 100%, 100% 50%, 0% 80%, 0% 100%);
+    clip-path: polygon(100% 100%, 100% 45%, 0% 70%, 0% 100%);
   }
+}
+
+.mblue{
+   color: #5E6AD2;
+}
+.mbluebg{
+   background-color: #5E6AD2;
+   color: white;
+}
+
+
+@keyframes scroll-left {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); -webkit-transform: translateX(-100%); }
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: scroll-left 20s linear infinite;
 }
