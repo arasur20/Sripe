@@ -1,14 +1,17 @@
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
-Tailwind CSS for utility-first styling, with PostCSS and Autoprefixer to process CSS.
-npm install tailwindcss postcss autoprefixer
---
-Declarative routing for React apps to enable client-side navigation.
-npm install react-router-dom
---
-For Animations and transitions
-npm install framer-motion
---for Icons
-npm install @heroicons/react
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/utils/stripe.jpeg" alt="Logo" width="100px" style="border-radius-12px;"/>
+</p>
+
+<h2 align="center">Stripe</h2>
+<h3 align="center">Stripe SignIn and SignUp Page</h3>
+
+<p align="center">
+  <a href="https://arasur20.github.io/Stripe/">Checkout here</a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/assets/stripesignin.png" alt="App Preview" width="600" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/assets/stripesignup.png" alt="App Preview" width="600" />
+</p>
