@@ -13,5 +13,5 @@
   <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/assets/stripesignin.png" alt="App Preview" width="600" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/assets/stripesignip.png" alt="App Preview" width="600" />
+  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/assets/stripesignup.png" alt="App Preview" width="600" />
 </p>
