@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/utils/stripe.jpeg" alt="Logo" class="rounded-lg" width="100px" />
+  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/utils/stripe.jpeg" alt="Logo" width="100px" style="border-radius-12px;"/>
 </p>
 
 <h2 align="center">Stripe</h2>
