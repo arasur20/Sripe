@@ -159,7 +159,7 @@ const PricingBody = () => {
                     <CheckMark />
                     <p>Triangle responsibility</p>
                   </div>
-                  <div className="flex items-start mt-[2px] space-x-2">
+                  <div className="flex items-start space-x-2">
                     <CheckMark />
                     <p>
                       Zendesk and Intercom
@@ -193,9 +193,13 @@ const PricingBody = () => {
                     <CheckMark />
                     <p>Advanced security</p>
                   </div>
-                  <div className="flex items-center space-x-2">
+                  <div className="flex items-start space-x-2">
                     <CheckMark />
-                    <p>Migration and onboarding support</p>
+                    <p>
+                      Migration and onboarding
+                      <br />
+                      support
+                    </p>
                   </div>
                 </div>
               </td>
@@ -229,7 +233,7 @@ const PricingBody = () => {
           </tbody>
         </table>
       </div>
-      <div className="flex flex-col items-center justify-center mt-16 w-5xl">
+      <div className="flex flex-col items-center justify-center mt-16 w-7xl">
         <p className="text-gray-500 font-semibold text-[18px]">
           Powering the world’s best product teams
         </p>
@@ -238,7 +242,7 @@ const PricingBody = () => {
           <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
 
           <div className="marquee-container w-full mt-4">
-            <div className="marquee-content space-x-10">
+            <div className="marquee-content space-x-40">
               <img src={monzo} alt="monzo" className="inline-block w-48 h-36" />
               <img src={scale} alt="scale" className="inline-block w-48 h-36" />
               <img
@@ -259,6 +263,351 @@ const PricingBody = () => {
               />
             </div>
           </div>
+        </div>
+        <div>
+          <table className="w-6xl text-left">
+            <thead className="whitespace-nowrap">
+              <tr>
+                <th className="w-3/12 border-r-1[px] border-neutral-800">
+                  <div className="flex flex-col">
+                    <div className="flex flex-col p-6">
+                      <h1 className="text-3xl mb-2">Free</h1>
+                    </div>
+                  </div>
+                </th>
+                <th className="w-3/12">
+                  <div className="flex flex-col">
+                    <div className="flex flex-col p-6">
+                      <h1 className="text-3xl mb-2">Basic</h1>
+                    </div>
+                  </div>
+                </th>
+                <th className="w-3/12">
+                  <div className="flex flex-col">
+                    <div className="flex flex-col p-6">
+                      <h1 className="text-3xl mb-2">Business</h1>
+                    </div>
+                  </div>
+                </th>
+                <th className="w-3/12">
+                  <div className="flex flex-col">
+                    <div className="flex flex-col p-6">
+                      <h1 className="text-3xl mb-2">Enterprise</h1>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-300 font-semibold text-[18px] mb-10">
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        members
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        members
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        members
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        members
+                      </span>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark noColour={true} />
+                    <p>
+                      10MB{" "}
+                      <span className="text-neutral-500 font-normal">
+                        file uploads
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        file uploads
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        file uploads
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        file uploads
+                      </span>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark noColour={true} />
+                    <p>
+                      250{" "}
+                      <span className="text-neutral-500 font-normal">
+                        issues
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        issues
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        issues
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        issues
+                      </span>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark noColour={true} />
+                    <p>
+                      2{" "}
+                      <span className="text-neutral-500 font-normal">
+                        teams
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark noColour={true} />
+                    <p>
+                      5{" "}
+                      <span className="text-neutral-500 font-normal">
+                        teams
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        teams
+                      </span>
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Unlimited{" "}
+                      <span className="text-neutral-500 font-normal">
+                        teams
+                      </span>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <p className="text-3xl">Features</p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark noColour={true} />
+                    <p>
+                      Issues, projects,
+                      <br /> cycles and initiatives
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Issues, projects, <br />
+                      cycles and initiative
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Issues, projects, <br />
+                      cycles and initiatives
+                    </p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>
+                      Issues, projects, <br />
+                      cycles and initiatives
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Customer requests</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Customer requests</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Customer requests</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Customer requests</p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Integrations</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Integrations</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Integrations</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>Integrations</p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-y-[1px] border-neutral-800">
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>API and webhook access</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>API and webhook access</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>API and webhook access</p>
+                  </div>
+                </td>
+                <td className="align-top px-6">
+                  <div className="flex items-center py-6 space-x-2">
+                    <CheckMark />
+                    <p>API and webhook access</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
