@@ -9,9 +9,3 @@
   <a href="https://arasur20.github.io/Stripe/">Checkout here</a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/assets/stripesignin.png" alt="App Preview" width="600" />
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arasur20/stripe/main/src/assets/stripesignup.png" alt="App Preview" width="600" />
-</p>
